@@ -8,6 +8,14 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/19a76af2e7.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      .bg-img{
+        background-image: url('images/bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+      }
+    </style>
 </head>
 <body class="font-manrope overflow-x-hidden">
     <header class=" py-5 ">
@@ -70,7 +78,7 @@
         <div class="flex flex-col items-center">
             <img class="w-[300px] lg:w-[500px]" src="images/banner.png" alt="">
             <h1 class="font-bold flex justify-center text-3xl lg:text-5xl text-wrap text-center ">A barn house of this design  has  a <br> striking appearance</h1>
-            <p class="flex justify-center py-5  text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+            <p class=" py-5  text-center w-[500px]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
             <button class="btn font-bold bg-[#ABEF5F] ">
                 <span class="">View Details</span>
                 <span ><i class="fa-solid fa-location-arrow " aria-hidden="true"></i></span>
@@ -78,8 +86,8 @@
         </div>
       </div>
     </header>
-    <main class="bg-[#F4F4F4] lg:px-32 px-5">
-        <section class="flex flex-col lg:flex-row py-5 items-center justify-center gap-7 lg:gap-24">
+    <main class="bg-[#F4F4F4] ">
+        <section class="lg:px-32 px-5 flex flex-col lg:flex-row py-5 items-center justify-center gap-7 lg:gap-24">
             <div>
                 <div class="ml-24 my-5">
                     <button class="btn bg-white rounded-full">
@@ -115,13 +123,13 @@
                 <img src="images/Rectangle.png" alt="" class=" w-[370px] lg:w-[500px] flex items-center justify-center">
             </div>
         </section>
-        <section>
+        <section class="lg:px-32 px-5">
           <div class="flex flex-col justify-center items-center">
             <button class="btn bg-white w-[150px] rounded-full">
               <i class="fa-solid fa-arrow-right-long"></i>
               How we works
             </button>
-            <h1 class="text-5xl font-bold text-center py-5">Our Works Process</h1>
+            <h1 class="text-3xl lg:text-5xl font-bold text-center py-5">Our Works Process</h1>
             <p class="text-center pb-5 w-[500px]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
           </div>
           <div class="grid grid-cols-1 lg:grid-cols-4 gap-5">
@@ -147,13 +155,13 @@
             </div>
           </div>
         </section>
-        <section class="py-7 flex flex-col justify-center items-center">
+        <section class="lg:px-32 px-5 py-7 flex flex-col justify-center items-center">
           <div class="flex flex-col justify-center items-center">
             <button class="btn bg-[#F1FFE1] w-[220px] rounded-full">
               <i class="fa-solid fa-arrow-right-long"></i>
               Explore our Latest works
             </button>
-            <h1 class="text-5xl font-bold text-center py-5">Our Latest Portfolio</h1>
+            <h1 class="text-3xl lg:text-5xl font-bold text-center py-5">Our Latest Portfolio</h1>
             <p class="text-center pb-5 w-[500px]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
           </div>
 
@@ -203,16 +211,16 @@
 
           </div>
         </section>
-        <section>
+        <section class="mb-24 lg:px-32 px-5">
           <div class="flex flex-col justify-center items-center">
             <button class="btn bg-[#F1FFE1] w-[220px] rounded-full">
               <i class="fa-solid fa-arrow-right-long"></i>
               Rinterio News
             </button>
-            <h1 class="text-5xl font-bold text-center py-5">Read Our Articles and News</h1>
+            <h1 class="text-3xl lg:text-5xl font-bold text-center py-5">Read Our Articles and News</h1>
             <p class="text-center pb-5 w-[500px]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
           </div>
-            <div class="flex flex-col lg:flex-row gap-4">
+            <div class="flex flex-col lg:flex-row gap-4 items-center">
               <div class="p-4 border-2 rounded-2xl">
                 <div>
                   <img src="images/article1.png" alt="" class="w-[300px]">
@@ -254,6 +262,47 @@
               </div>
             </div>
         </section>
+        <section class="pt-24 bg-img lg:px-32 px-5">
+          <div class="flex flex-col justify-center items-center">
+            <button class="btn bg-[#F1FFE1] w-[220px] rounded-full">
+              <i class="fa-solid fa-arrow-right-long"></i>
+              Rinterio News
+            </button>
+            <h1 class="text-3xl lg:text-5xl font-bold text-center py-5">Read Our Articles and News</h1>
+            <p class="text-center pb-5 w-[500px]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+          </div>
+          <div class="flex justify-center items-center">
+            <div class=" p-8 rounded-lg shadow-md w-full max-w-sm md:max-w-xl lg:max-w-3xl">
+              <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+                  <input type="text" placeholder="First Name*" class="p-4 border rounded-full w-full">
+                  <input type="text" placeholder="Last Name*" class="p-4 border rounded-full w-full">
+                  <input type="text" placeholder="Phone Number*" class="p-4 border rounded-full w-full">
+                  <input type="email" placeholder="Email Number*" class="p-4 border rounded-full w-full">
+              </div>
+              <textarea placeholder="Write your message here" class="mt-4 p-4 border rounded-lg w-full h-32"></textarea>
+              <button class="mt-6 w-full bg-lime-400 hover:bg-lime-500 text-black p-4 rounded-full flex items-center justify-center shadow-lg">
+                  Send Mail 
+              </button>
+          </div>
+          </div>
+        </section>
     </main>
+    <footer class="footer footer-center bg-[#1C1C1C] p-10">
+  
+         <h2 class="text-2xl font-bold text-white">Rinterio</h2>
+        <p class="text-slate-500">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+        <ul class="text-white flex flex-col lg:flex-row">
+              <li><a>Home</a></li>
+              <li><a>Services</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contact Us</a></li>
+            </ul>
+            <button class="btn font-bold bg-[#ABEF5F] flex ">
+              <span class="">View Details</span>
+              <span ><i class="fa-solid fa-location-arrow " aria-hidden="true"></i></span>
+          </button>
+      
+    </footer>
 </body>
 </html>
